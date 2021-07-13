@@ -58,10 +58,7 @@ def iou_over_matrix_list(true_matrices, pred_matrices):
 
 
 
-
-
-
-
+"""
 bbox = BBox(25, 75, 25, 75, "", "", ID=0)
 #print(bbox.get_info())
 matrix = np.zeros((100, 100)) 
@@ -74,3 +71,4 @@ print(iou(matrix))
 
 plt.imshow(matrix) 
 plt.show()
+"""

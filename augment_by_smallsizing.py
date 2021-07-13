@@ -123,6 +123,3 @@ def test_smallsizing():
         plt.show()
 
 
-#oppdal = "numpy_matrices/Oppdal_12pkt_2011.npy"
-#get_smallsized_matrices(oppdal)
-#test_smallsizing()

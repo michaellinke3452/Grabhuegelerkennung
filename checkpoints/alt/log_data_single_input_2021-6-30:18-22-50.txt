@@ -1,0 +1,2 @@
+method, timestamp, epochs, score
+laplacian, error, error, error
