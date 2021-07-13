@@ -1,2 +1,0 @@
-method, timestamp, epochs, score
-laplacian, 2021-6-30:18-29-39, 100, [0.5742373606960198, 0.9832375388686949]
