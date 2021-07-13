@@ -10,6 +10,21 @@ from utils import get_window_by_position, asarray_trainingsset, reshape_training
 import predictions as pd
 import sys
 
+# Example for training a segmentation model (Version 5) with learning rate and bigger training set 
+# (which is the only available training set):
+# S1_train.h5 and S1_test.h5 need to be copied into this folder before using the following command:
+
+# python train_multiple_filters_single_input.py segmentation model=5 lr_decay bigger
+
+
+
+# Example for training a detection model (Version 21), using the D1 dataset:
+# D1_train.h5 and D1_test.h5 need to be copied into this folder before using the following command:
+
+# python train_multiple_filters_single_input.py detection
+
+# The datasets can be found here: 
+# https://github.com/michaellinke3452/GraMSaD
 
 
 def train_single_input(scaling=False, bigger_test_set=False, rotate=False, model_nr="", lr_decay=False):
