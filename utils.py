@@ -1,7 +1,7 @@
 import glob
 import numpy as np 
 import matplotlib.pyplot as plt 
-import file_ops, terrain
+import file_ops   
 from bounding_box import BBox
 from vis import slrm
 import preprocessing as pp
